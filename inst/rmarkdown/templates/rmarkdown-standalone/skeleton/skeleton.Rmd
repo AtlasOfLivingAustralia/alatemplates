@@ -23,7 +23,7 @@ source("functions.R")
 htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 ```
 
-<!-- Picture & Links in upper right corner -->
+<!-- Picture & Github link in upper right corner -->
 
 ```{r upper right bio, echo = FALSE}
 add_author_profile_photo(
@@ -36,13 +36,13 @@ add_author_profile_photo(
 
 ------------------------------------------------------------------------------
 
-Provide
-
-<br>
+Provide brief introduction about what your code does and why you decided to write this code (e.g., a specific holiday, to solve a common problem, etc)
 
 ------------------------------------------------------------------------------
 
-# Main
+# Section 1
+
+## Subsection
 
 Example chunk
 

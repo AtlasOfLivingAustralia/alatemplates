@@ -51,7 +51,7 @@ h1, .h1, h2, .h2, h3, .h3 {
 #pictureposition {
   display: block;
   vertical-align: top;
-  position:absolute; top:0; right:0; 
+  position:absolute; top:0; right:0;
 }
 
 /*  position link icons  */
@@ -67,16 +67,16 @@ h1, .h1, h2, .h2, h3, .h3 {
   outline: 0;
   display: inline-block;
   padding: 8px;
-  color: white;
-  background-color: #B8573E;
+  color: #222322;
+  background-color: #fff;
   text-align: center;
   cursor: pointer;
-  width: 20%;
   clip-path: circle();
 }
 
 .author-button:hover {
   background-color: #E06E53;
+  color: white;
 }
 
 

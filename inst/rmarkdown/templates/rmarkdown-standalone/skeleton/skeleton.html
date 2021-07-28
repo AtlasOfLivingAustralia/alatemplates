@@ -257,30 +257,22 @@ div.tocify {
 </div>
 
 
-<!-- Picture & Links in upper right corner -->
+<!-- Picture & Github link in upper right corner -->
 <div id="pictureposition">
 <img class="clipped" src="picture.jpg" style="height:120px"/>
 <div id="linkposition">
 <button class="author-button">
-<i href="https://github.com/AtlasOfLivingAustralia/alatemplates" class="fab fa-github" style="text-align:center"></i>
+<i href="https://github.com/AtlasOfLivingAustralia/alatemplates" class="fab fa-github"></i>
 </button>
 </div>
 </div>
-<table>
-<colgroup>
-<col width="100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td align="left"># Introduction This document details the Atlas of Living Australia style guide for creating html files from R Markdown</td>
-</tr>
-<tr class="even">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<div id="main" class="section level1">
-<h1>Main</h1>
+<hr />
+<p>Provide brief introduction about what your code does and why you decided to write this code (e.g., a specific holiday, to solve a common problem, etc)</p>
+<hr />
+<div id="section-1" class="section level1">
+<h1>Section 1</h1>
+<div id="subsection" class="section level2">
+<h2>Subsection</h2>
 <p>Example chunk</p>
 <pre class="r"><code>library(kableExtra)
 library(tidyverse)
@@ -525,10 +517,12 @@ Hornet Sportabout
 <p><br></p>
 <hr />
 </div>
+</div>
 
 <!-- ALA Template Footer -->
 
 <style>
+
 .clipped {
     clip-path: circle();
 }
@@ -538,8 +532,8 @@ Hornet Sportabout
   outline: 0;
   display: inline-block;
   padding: 8px;
-  color: #E06E53;
-  background-color: #EEECEA;
+  color: #222322;
+  background-color: white;
   cursor: pointer;
   width: 30px;
   text-align: center;
@@ -567,7 +561,7 @@ Hornet Sportabout
     min-height: 1px;
     display:flex;
     flex-direction:column;
-    
+
 }
 
 .column-footer-2 {
@@ -578,7 +572,7 @@ Hornet Sportabout
     width: 100%;
     min-height: 1px;
     display:flex;
-    flex-direction:column; 
+    flex-direction:column;
 }
 
 .footer-logo {
@@ -610,12 +604,12 @@ Hornet Sportabout
     width: 100%;
     display: block;
   }
-  
+
     .column-footer-2 {
     width: 100%;
     display: block;
   }
-  
+
     .footer-logo {
     width: 100%;
     display: block;
@@ -632,14 +626,14 @@ Hornet Sportabout
 <div class = "row">
   <div class = "footer-logo">
     <p>
-    <img src = "images/NCRIS_logo.png" style = "width:auto;height:80px;margin-left:15px;margin-right:15px"></img>
-    <img src = "images/CSIRO_logo.png" style = "width:auto;height:80px;margin-left:15px;margin-right:15px"></img>
+    <img src = "NCRIS_logo.png" style = "width:auto;height:80px;margin-left:15px;margin-right:15px"></img>
+    <img src = "CSIRO_logo.png" style = "width:auto;height:80px;margin-left:15px;margin-right:15px"></img>
     </p>
     <p class = "footer-text">The ALA is made possible by contributions from its many partners. It receives support through the Australian Government through the National Collaborative Research Infrastructure Strategy (NCRIS) and is hosted by CSIRO.</p>
   </div>
   <div id = "over" class = "column-footer-2">
     <p>
-    <img src='images/ALA_Logo.png' href = "https://www.ala.org.au/" style = "max-width:auto; height:80px" ></img>
+    <img src='ALA_Logo.png' href = "https://www.ala.org.au/" style = "max-width:auto; height:80px" ></img>
     </p>
 <!-- ALA links -->
     <p>
