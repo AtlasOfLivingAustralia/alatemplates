@@ -1,13 +1,13 @@
 Package: alatemplates
-Title: What the Package Does (One Line, Title Case)
+Title: Create R and R markdown templates for use by the Atlas of Living Australia (ALA)
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Dax",
+           family = "Kellie",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "dax.kellie@csiro.au",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: Create R and R markdown files that conform to the Atlas of Living Australia (ALA) style guide
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
