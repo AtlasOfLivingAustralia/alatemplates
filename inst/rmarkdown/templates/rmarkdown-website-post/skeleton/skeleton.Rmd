@@ -1,0 +1,56 @@
+---
+title: "Title"
+description: |
+  short description of the page
+author:
+  - name: author-name 
+    url: people-page-url
+date: "`r Sys.Date()`"
+categories: 
+  - category 1
+  - category 2
+output: 
+  distill::distill_article:
+    theme: theme.css
+    highlight: tango
+    toc: true
+    toc_float: true
+    toc_depth: 3
+---
+
+Short description or background. Provide links when possible
+
+<aside>
+```{r author image, echo = FALSE}
+library(here)
+image_path <- here("images", "author-image.jpg") # change author-image to correct path
+htmltools::withTags(
+      img(src = knitr::image_uri(image_path),
+          style = 'height:120px;clip-path: circle();'))
+```
+</aside>
+
+
+See the the [original R script](url-of-R-script-in-science-github-repo)
+
+
+
+------------------------------------------------------------------------------
+
+# Download data
+
+
+------------------------------------------------------------------------------
+
+# Wrangle data
+
+------------------------------------------------------------------------------
+
+# Plot data
+
+```{r, layout = "l-page", preview = TRUE}
+# Use these knitr chunk settings in final plot/output
+# These settings increase the output size on the page and use the output as the post preview
+
+```
+

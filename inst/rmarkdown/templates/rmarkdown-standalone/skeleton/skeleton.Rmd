@@ -23,6 +23,8 @@ source("functions.R")
 htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 ```
 
+
+
 <!-- Picture & Github link in upper right corner -->
 
 ```{r upper right bio, echo = FALSE}
