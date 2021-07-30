@@ -1,5 +1,5 @@
 Package: alatemplates
-Title: Create R and R markdown templates for use by the Atlas of Living Australia (ALA)
+Title: R markdown templates for the Atlas of Living Australia (ALA)
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Dax",
@@ -7,9 +7,8 @@ Authors@R:
            role = c("aut", "cre"),
            email = "dax.kellie@csiro.au",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Create R and R markdown files that conform to the Atlas of Living Australia (ALA) style guide
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: Create R markdown files that conform to the Atlas of Living Australia (ALA) style guide
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
