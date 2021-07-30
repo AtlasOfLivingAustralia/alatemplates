@@ -1,5 +1,5 @@
 # alatemplates
-Create modern R Markdown files that conform to the Atlas of Living Australia (ALA) style guide
+Create R Markdown files that conform to the Atlas of Living Australia (ALA) style guide
 
 # Installation
 
@@ -17,7 +17,7 @@ In the "New R Markdown" pane, select **From Template** and choose from the list 
 
 The templates to choose from are:
 
-* `rmarkdown-standalone` = A standalone `Rmd` file that renders to html. This is intended for documents that you wish to share with others in webpage style html format, but will not be posted on the ALA Labs website
+* `rmarkdown-standalone` = A standalone `Rmd` file that renders to html. This is for documents intended to share with others (in webpage style html format), but will not be posted on the ALA Labs website
 * `rmarkdown-website-post` = A document intended as a Post on the ALA Labs website. This template uses a template `Distill` heading to work correctly with the ALA Labs website
   
-  (*Note: If this template does not render correctly, you may need install the Distill package using* `install.packages("distill")`)
+  *Note: If this template does not render correctly, you may need install the Distill package using* `install.packages("distill")`
