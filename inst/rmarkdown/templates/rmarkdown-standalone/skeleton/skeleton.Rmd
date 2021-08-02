@@ -9,9 +9,9 @@ output:
     toc_float: true
     toc_depth: 3
     include:
-      in_header: header.html
-      after_body: footer.html
-    css: style.css
+      in_header: template-files/header.html
+      after_body: template-files/footer.html
+    css: template-files/style.css
     self_contained: FALSE
 editor_options: 
   chunk_output_type: inline
@@ -19,7 +19,7 @@ editor_options:
 
 ```{r setup, include=FALSE}
 library(htmltools)
-source("functions.R")
+source("template-files/functions.R")
 htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 ```
 
@@ -29,8 +29,8 @@ htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 
 ```{r upper right bio, echo = FALSE}
 add_author_profile_photo(
-  img_src = "picture.jpg",
-  github_url = "https://github.com/AtlasOfLivingAustralia/alatemplates"
+  img_src = "picture.png", # add your photo
+  github_url = "https://github.com/AtlasOfLivingAustralia/alatemplates" # add your github account url
 )
 ```
 
