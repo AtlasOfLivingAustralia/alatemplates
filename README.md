@@ -1,3 +1,5 @@
+This repository has been implemented with the {alatheme} repository and is now archived
+
 # alatemplates
 Create R Markdown files that conform to the Atlas of Living Australia (ALA) style guide
 
